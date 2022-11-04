@@ -277,6 +277,25 @@ Bare at en sammenføyer ikke historien
 
 Og hvorfor det kan være OK å lære seg
 
+---
+
 ## Bonus 1: lokal backup
 
 Uten å zippe folderen! `git clone --bare`
+
+Kan også ligge på en network share eller lignende for samarbeid!
+
+---
+
+## Bonus 2: Spørsmål? Ting jeg kan ta på sparket?
+
+### Stikkord:
+
+- push
+- pull
+- conflicts
+- pull requests
+- cherry-picking
+- diff
+- fetch
+- tag
