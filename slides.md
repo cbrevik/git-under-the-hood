@@ -63,6 +63,8 @@ tree .git/objects/
 
 Det er ikke en database.
 
+Det er bare masse filer som peker på hverandre.
+
 ---
 
 ## Hva er innholdet i en commit fil?
@@ -155,6 +157,12 @@ Hvis den fortsatt eksisterer i `.git/objects` - hvorfor er den borte fra `main`-
 ## Hva er egentlig en branch?
 
 Da ser vi i `.git/refs`
+
+---
+
+## Hvordan vet git hvilken branch vi er på?
+
+Da ser vi i `.git/HEAD`
 
 ---
 
@@ -254,3 +262,15 @@ Hvorfor oppfører de seg forskjellig?
 Så begge historier sammenføyes på dato.
 
 Hva skjer da om du resetter merge-commiten?
+
+---
+
+## Squash er som en merge
+
+Bare at en sammenføyer ikke historien
+
+---
+
+## Hva som er vanskelig med rebase
+
+Og hvorfor det kan være OK å lære seg
