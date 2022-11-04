@@ -240,10 +240,12 @@ git log
 ## Passer på ved commit amends eller rebases
 
 ```bash
+echo "Før commit amend:"
 git log --oneline
 echo "woops!" >> index.js
 git add index.js
-git commit --amend --no-edit
+git commit --amend --no-edit -q
+echo "Etter commit amend:"
 git log --oneline
 ```
 
@@ -274,3 +276,7 @@ Bare at en sammenføyer ikke historien
 ## Hva som er vanskelig med rebase
 
 Og hvorfor det kan være OK å lære seg
+
+## Bonus 1: lokal backup
+
+Uten å zippe folderen! `git clone --bare`
